@@ -11,7 +11,10 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.2",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.13"
   },
   "engines": {
     "node": ">=14"
